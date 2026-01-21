@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://dl365lvbnypga"]
+
+[ext_resource type="Script" uid="uid://u0jesqg5mko0" path="res://Mega Man Godot/Scripts/check_finish_climbing.gd" id="1_qmj08"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_qmj08"]
+size = Vector2(40, 3)
+
+[node name="Area2D" type="Area2D"]
+collision_layer = 0
+collision_mask = 2
+script = ExtResource("1_qmj08")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -18.5)
+shape = SubResource("RectangleShape2D_qmj08")
+
+[connection signal="body_exited" from="." to="." method="_on_body_exited"]

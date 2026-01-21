@@ -1,0 +1,43 @@
+63f7b34db8d8cdea90c76aacccf841ec
+::res://::1768640841
+gdre_export.log::TextFile::-1::1763580360::0::1::::<><><>0<>0<><>::
+README.md::TextFile::-1::1767527298::0::1::::<><><>0<>0<><>::
+::res://Mega Man Godot/::1768640219
+::res://Mega Man Godot/globals/::1768640219
+signalis_bus.gd::GDScript::4273286304780245293::1767525592::0::1::::<>Node<><>0<>0<><>::
+::res://Mega Man Godot/Scenes/::1768640219
+::res://Mega Man Godot/Scenes/Levels/::1768640219
+Test_Level.tscn::PackedScene::6394468653131640664::1768084948::0::1::::<><><>0<>0<><>::uid://cw4mfikbce52y::::res://Mega Man Godot/Scenes/Player/player.tscn<>uid://b4ih5786vrggb::::res://Mega Man Godot/Scenes/Objects/SolidBlock.tscn<>uid://cxo7vlt81ef4y::::res://Mega Man Godot/Scenes/Objects/ladder_top.tscn<>uid://cr7e4xdn6at41::::res://Mega Man Godot/Scenes/Objects/solid_block_2.tscn<>uid://dbsc5s8pe6cww::::res://Mega Man Godot/Scenes/Objects/ladder.tscn
+::res://Mega Man Godot/Scenes/Objects/::1768640219
+check_finish_climbing.tscn::PackedScene::7991078319065753336::1767893802::0::1::::<><><>0<>0<><>::uid://u0jesqg5mko0::::res://Mega Man Godot/Scripts/check_finish_climbing.gd
+ladder.tscn::PackedScene::7266785699180037858::1767523846::0::1::::<><><>0<>0<><>::uid://b013mi73yeyqj::::res://textury/icon.svg
+ladder_top.tscn::PackedScene::6418067113700726694::1768084930::0::1::::<><><>0<>0<><>::uid://b013mi73yeyqj::::res://textury/icon.svg<>uid://b6gjbq7ffousr::::res://Mega Man Godot/Scripts/ladder_top.gd<>uid://u0jesqg5mko0::::res://Mega Man Godot/Scripts/check_finish_climbing.gd
+node_2d.tscn::PackedScene::8857280291424992909::1767816598::0::1::::<><><>0<>0<><>::uid://u0jesqg5mko0::::res://Mega Man Godot/Scripts/check_finish_climbing.gd
+SolidBlock.tscn::PackedScene::4438892497158017373::1767814730::0::1::::<><><>0<>0<><>::
+solid_block_2.tscn::PackedScene::6032407666660549776::1767897076::0::1::::<><><>0<>0<><>::
+::res://Mega Man Godot/Scenes/Player/::1768640219
+bullet.tscn::PackedScene::4371679170304332790::1767523846::0::1::::<><><>0<>0<><>::uid://b013mi73yeyqj::::res://textury/icon.svg<>uid://urrwk8a471fc::::res://Mega Man Godot/Scripts/bullet.gd
+Ghost.tscn::PackedScene::6347614436747597145::1768049446::0::1::::<><><>0<>0<><>::uid://cgrm2hj5d4hsp::::res://textury/MM_move/dash.png<>uid://d1x4b5gbwal6o::::res://Mega Man Godot/Scripts/Ghost.gd
+player.tscn::PackedScene::6377600850856516358::1768084870::0::1::::<><><>0<>0<><>::uid://bxiisludyvn2h::::res://Mega Man Godot/Scripts/Player.gd<>uid://c3u8k0akq875w::::res://textury/MM_move/chain_shooting.png<>uid://cwo3juoqdaae8::::res://Mega Man Godot/Scenes/Player/Ghost.tscn<>uid://dhww11f5nodj5::::res://textury/MM_move/climb_end.png<>uid://knd1ridb8ont::::res://textury/MM_move/climb.png<>uid://d0edqjttxaggn::::res://textury/MM_move/shoot_climb.png<>uid://cgrm2hj5d4hsp::::res://textury/MM_move/dash.png<>uid://cqsqd47jcdsht::::res://textury/MM_move/jump.png<>uid://wruxe0r0oxa::::res://textury/MM_move/shoot_jump.png<>uid://bimeh1uwpy0yc::::res://textury/MM_move/chain_shooting_jumping.png<>uid://bc5j11hw66ar1::::res://textury/MM_move/walk.png<>uid://uu4lnf65myeq::::res://textury/MM_move/shot_walk.png<>uid://ck3qg3l0s3km4::::res://textury/MM_move/shoot.png<>uid://bc85bcm1rc1i2::::res://textury/MM_move/stand.png
+::res://Mega Man Godot/Scripts/::1768640219
+bullet.gd::GDScript::1439943347174690340::1766871802::0::1::::<>Sprite2D<><>0<>0<><>::
+check_finish_climbing.gd::GDScript::1455940883173019421::1767888792::0::1::::<>Area2D<><>0<>0<><>::
+Ghost.gd::GDScript::9033416837639831768::1768049496::0::1::::<>AnimatedSprite2D<><>0<>0<><>::
+ladder.gd::GDScript::2170758981463233406::1767458426::0::1::::<>Node2D<><>0<>0<><>::
+ladder_top.gd::GDScript::4575210231767043109::1767814858::0::1::::<>StaticBody2D<><>0<>0<><>::
+Player.gd::GDScript::4017797598454903513::1768084614::0::1::::<>CharacterBody2D<><>0<>0<><>::
+::res://textury/::1768640219
+icon.svg::CompressedTexture2D/CompressedTexture2D::4196537572498776489::1763580360::1763580532::1::::<><><>0<>0<>7430297c37c1dda7cfe04abfd1bf497e<>res://.godot/imported/icon.svg-7ccbea715e3070ce3a6ed3836f32a9e0.ctex::
+::res://textury/MM_move/::1768640219
+chain_shooting.png::CompressedTexture2D/CompressedTexture2D::6781439376593470938::1766496886::1766601988::1::::<><><>0<>0<>6f3df4e57cc13fe353bb4e30de1fc77f<>res://.godot/imported/chain_shooting.png-c894680f6b37d8831d6c2a121899b30f.ctex::
+chain_shooting_jumping.png::CompressedTexture2D/CompressedTexture2D::2972960731898267014::1766496816::1766601990::1::::<><><>0<>0<>2fd505f3a0a04b906c9c9deed3940e34<>res://.godot/imported/chain_shooting_jumping.png-ee446107dd857f97046f3972e4ee60e9.ctex::
+climb.png::CompressedTexture2D/CompressedTexture2D::728954834197271677::1766961752::1766961754::1::::<><><>0<>0<>0e8d80086a8692a857ae4488d28073d4<>res://.godot/imported/climb.png-f25c8094c1fa520d71a0d87ba909a4a5.ctex::
+climb_end.png::CompressedTexture2D::7697383846329349404::1767888458::1767888460::1::::<><><>0<>0<>3caaaf082980e9004aca24c6793629a8<>res://.godot/imported/climb_end.png-f44d603ede549e003cf1e0c47a09b4c1.ctex::
+dash.png::CompressedTexture2D/CompressedTexture2D::5229846054316953383::1767392122::1767392120::1::::<><><>0<>0<>6dc1d3302f4e9bd81c2894454dc90547<>res://.godot/imported/dash.png-97f1664f4a566f58339ed92a33faca2c.ctex::
+jump.png::CompressedTexture2D/CompressedTexture2D::5934000067456400289::1766489054::1766601994::1::::<><><>0<>0<>08d50087ac2009a7cd5ece0d82668dc3<>res://.godot/imported/jump.png-0ea10f5d5e0b7d81ff43b6661893a641.ctex::
+shoot.png::CompressedTexture2D/CompressedTexture2D::5533516056335597245::1766491044::1766601996::1::::<><><>0<>0<>ee5ef44b5e0237ffae1f540d60cee7a5<>res://.godot/imported/shoot.png-9e35fc7aa48682b4de4ba372df1dfd38.ctex::
+shoot_climb.png::CompressedTexture2D/CompressedTexture2D::8922451879682580737::1767016454::1767016454::1::::<><><>0<>0<>a1f6cb8c678f2e9e26902a4ac535cf20<>res://.godot/imported/shoot_climb.png-78e18329966a8bb85af44c737a2ea485.ctex::
+shoot_jump.png::CompressedTexture2D/CompressedTexture2D::46485430720316734::1766495466::1766601998::1::::<><><>0<>0<>298d18d4c7a41b15d7429bf873ff472a<>res://.godot/imported/shoot_jump.png-b72475d799bf970359224bf84e38f5ba.ctex::
+shot_walk.png::CompressedTexture2D/CompressedTexture2D::1446845556341686232::1766491346::1766602002::1::::<><><>0<>0<>0249b2153bf26f9cf0a9379ee00baf48<>res://.godot/imported/shot_walk.png-f0c7c91abf1b1bf43ad67c6d0d178c56.ctex::
+stand.png::CompressedTexture2D/CompressedTexture2D::2596746257218538227::1766486484::1766602004::1::::<><><>0<>0<>3c4fb79b10bb8312a03550171ed88ec8<>res://.godot/imported/stand.png-69fad1f1585cb5efa5fd1bc176532e76.ctex::
+walk.png::CompressedTexture2D/CompressedTexture2D::2589323964630344004::1766484488::1766602008::1::::<><><>0<>0<>7f77fbf83ed98c8af0b8638804f3d1e0<>res://.godot/imported/walk.png-c3f0cf828f5c0596a0443c95b80fc186.ctex::

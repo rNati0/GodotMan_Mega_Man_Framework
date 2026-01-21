@@ -1,0 +1,51 @@
+[gd_scene load_steps=7 format=3 uid="uid://cxo7vlt81ef4y"]
+
+[ext_resource type="Texture2D" uid="uid://b013mi73yeyqj" path="res://textury/icon.svg" id="1_mrgom"]
+[ext_resource type="Script" uid="uid://b6gjbq7ffousr" path="res://Mega Man Godot/Scripts/ladder_top.gd" id="2_tlsh0"]
+[ext_resource type="Script" uid="uid://u0jesqg5mko0" path="res://Mega Man Godot/Scripts/check_finish_climbing.gd" id="3_svrlf"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_mrgom"]
+size = Vector2(40, 40)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_tlsh0"]
+size = Vector2(40, 5)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_qmj08"]
+size = Vector2(40, 5.5)
+
+[node name="Ladder top" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(1.9073486e-06, 0.5)
+scale = Vector2(0.31249997, 0.3046875)
+texture = ExtResource("1_mrgom")
+
+[node name="Ladder" type="Area2D" parent="."]
+collision_layer = 4
+collision_mask = 0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Ladder"]
+shape = SubResource("RectangleShape2D_mrgom")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+collision_mask = 0
+script = ExtResource("2_tlsh0")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(0, -17.5)
+shape = SubResource("RectangleShape2D_tlsh0")
+one_way_collision = true
+debug_color = Color(0.94000006, 1.2032688e-05, 0.6190947, 0.41960785)
+
+[node name="Area2D" type="Area2D" parent="."]
+position = Vector2(-1, 0)
+collision_layer = 0
+collision_mask = 2
+script = ExtResource("3_svrlf")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(1, -17)
+shape = SubResource("RectangleShape2D_qmj08")
+debug_color = Color(0.86928624, 0.35228392, 1.1551381e-06, 0.41960785)
+
+[connection signal="body_exited" from="Area2D" to="Area2D" method="_on_body_exited"]

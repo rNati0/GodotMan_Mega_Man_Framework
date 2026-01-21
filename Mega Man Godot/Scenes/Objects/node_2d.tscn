@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://dygsd24hg5nv6"]
+
+[ext_resource type="Script" uid="uid://u0jesqg5mko0" path="res://Mega Man Godot/Scripts/check_finish_climbing.gd" id="1_ww83o"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_d6k05"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_f500e"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="." groups=["Player"]]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
+shape = SubResource("CircleShape2D_d6k05")
+
+[node name="Area2D" type="Area2D" parent="."]
+script = ExtResource("1_ww83o")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource("RectangleShape2D_f500e")

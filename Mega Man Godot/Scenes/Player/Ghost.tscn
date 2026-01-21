@@ -1,0 +1,49 @@
+[gd_scene load_steps=8 format=3 uid="uid://cwo3juoqdaae8"]
+
+[ext_resource type="Texture2D" uid="uid://cgrm2hj5d4hsp" path="res://textury/MM_move/dash.png" id="1_h3n5a"]
+[ext_resource type="Script" uid="uid://d1x4b5gbwal6o" path="res://Mega Man Godot/Scripts/Ghost.gd" id="2_cvymg"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vh501"]
+atlas = ExtResource("1_h3n5a")
+region = Rect2(0, 0, 56, 56)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gj3xx"]
+atlas = ExtResource("1_h3n5a")
+region = Rect2(56, 0, 56, 56)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_j8nxf"]
+atlas = ExtResource("1_h3n5a")
+region = Rect2(112, 0, 56, 56)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fc24h"]
+atlas = ExtResource("1_h3n5a")
+region = Rect2(168, 0, 56, 56)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_4e3wx"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vh501")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gj3xx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_j8nxf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fc24h")
+}],
+"loop": false,
+"name": &"Dash_Ghost",
+"speed": 5.0
+}]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D"]
+texture_filter = 1
+sprite_frames = SubResource("SpriteFrames_4e3wx")
+animation = &"Dash_Ghost"
+frame = 3
+frame_progress = 1.0
+speed_scale = 2.0
+script = ExtResource("2_cvymg")
